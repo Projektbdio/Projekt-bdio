@@ -36,7 +36,7 @@ jobs:
           images: kacperjarocki/projekt-bdio
 
       - name: Build and push Docker image
-        uses: docker/compose-action@v2.0.0
+        uses: docker/compose-action@v2.2.3
         with:
           compose-file: docker-compose.yml
           context: .
